@@ -88,6 +88,7 @@ border-radius: 46px;
 #banner-section 
 {
 margin: 50px 0;
+position: relative;
 }
 
 
@@ -95,9 +96,8 @@ margin: 50px 0;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     align-items: center;
-    justify-items: end;
+    justify-items: center;
     column-gap: 30px;
-    
 }
 
 #banner-section .paragraph
@@ -136,6 +136,7 @@ margin:20px 0;
 
 #banner-section .btn{
     display: flex;
+    
 
 }
 
@@ -158,26 +159,73 @@ font-weight: 600;
 }
 
 #banner-section .imgg{
+    /* position: relative; */
 
 }
 
 #banner-section .imgg img{
+ width: 100%;
 
 }
 
-#banner-section .video-w{
-
+#banner-section .video-w {
+    position: absolute;
+    top: 157px;
+    right: 34px;
+    border-radius: 12px;
 }
-
 
 #banner-section .video-w h2{
+    
+
+font-size: 40px;
+font-weight: 900;
+background: rgb(172 172 172 / 23%);
+padding:10px 30px 0 30px;
+border-radius: 12px 12px 0 0;
+
+
 
 }
 
-#banner-section .video-t{
+#banner-section .video-w p{
 
+    background: rgb(172 172 172 / 23%);
+padding:0 30px 10px 30px;
+border-radius: 0 0 12px 12px;
+ 
 }
+
+#banner-section .video-t {
+    position: absolute;
+    bottom: 75px;
+    right: 467px;
+}
+/* #banner-section .video-t .circle{
+    background: rgb(230, 83, 60);
+    border-radius: 50%;
+} */
 
 #banner-section .video-t h3{
 
+
+font-size: 24px;
+font-weight: 900;
+
+background: rgba(48, 48, 48, 0.54);
+
+padding:10px 30px 0 30px;
+border-radius: 12px 12px 0 0;
+
+
+
+
+}
+#banner-section .video-t p{
+
+    background: rgba(48, 48, 48, 0.54);
+
+    padding:0 30px 10px 30px;
+    border-radius: 0 0 12px 12px;
+    
 }
