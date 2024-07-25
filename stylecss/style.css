@@ -1,0 +1,183 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+   background: rgb(0, 0, 0);
+
+   color: aliceblue;
+}
+
+
+.containers{
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 0 20px ;
+    box-sizing: border-box;
+    width: 100%;
+}
+
+#nav-bar{
+    margin: 60px 0 32px;
+
+}
+
+#nav-bar .nav-bar-p {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+}
+
+
+#nav-bar h3{
+    color: rgb(230, 83, 60);
+font-family: Inter;
+font-size: 36px;
+font-weight: 800;
+line-height: 120%;
+letter-spacing: 0%;
+text-align: left;
+    
+}
+
+#nav-bar .click-bar {
+    border: 1px solid;
+    border-radius: 39px;
+    text-align: center;
+    padding: 8px;
+    border-color: rgb(67, 67, 67);
+}
+
+#nav-bar ul{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    
+}
+
+#nav-bar li{
+    list-style: none;
+   
+}
+
+
+
+#nav-bar a{
+    text-decoration: none;
+    /* color: rgb(255, 255, 255); */
+font-family: Inter;
+font-size: 18px;
+font-weight: 600;
+text-align: left;
+padding: 8px 20px ;
+border-radius: 46px;
+ margin: 0 47px;
+
+}
+
+#nav-bar a:hover{
+    background: rgb(230, 83, 60);
+}
+
+
+/* end bav bar  */
+
+
+
+#banner-section 
+{
+margin: 50px 0;
+}
+
+
+#banner-section .banner-p {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    justify-items: end;
+    column-gap: 30px;
+    
+}
+
+#banner-section .paragraph
+
+{
+    margin: 0 30px ;
+}
+
+#banner-section h1
+{
+    /* color: rgb(255, 255, 255); */
+/* font-family: Inter; */
+font-size: 78px;
+font-weight: 900;
+line-height: 120%;
+letter-spacing: 0%;
+text-align: left;
+    
+}
+
+#banner-section span{
+   
+
+   Font weight: 400; 
+   font-family: 'Miama';
+}
+
+#banner-section .paragraph p{
+  
+Font weight: 400;
+Font size: 16px;
+
+margin:20px 0;
+
+}
+
+#banner-section .btn{
+    display: flex;
+
+}
+
+#banner-section button{
+
+    margin-right: 16px;
+    padding:16px 40px;
+    border-radius: 42px;
+    border: 1px solid;
+
+    /* color: rgb(255, 255, 255); */
+font-size: 18px;
+font-weight: 600;
+
+
+}
+
+#banner-section button:hover{
+     background: rgb(230, 83, 60);;
+}
+
+#banner-section .imgg{
+
+}
+
+#banner-section .imgg img{
+
+}
+
+#banner-section .video-w{
+
+}
+
+
+#banner-section .video-w h2{
+
+}
+
+#banner-section .video-t{
+
+}
+
+#banner-section .video-t h3{
+
+}
