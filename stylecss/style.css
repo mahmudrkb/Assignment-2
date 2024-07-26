@@ -42,6 +42,16 @@ text-align: left;
     
 }
 
+#nav-bar .icone{
+    display: none;
+
+}
+
+/* #nav-bar .icone i{
+    
+color: aliceblue;
+} */
+
 #nav-bar .click-bar {
     border: 1px solid;
     border-radius: 39px;
@@ -125,12 +135,13 @@ text-align: left;
    font-family: 'Miama';
 }
 
-#banner-section .paragraph p{
+#banner-section .paragraph p{ 
+
   
-Font weight: 400;
-Font size: 16px;
 
 margin:20px 0;
+color: rgba(255, 255, 255, 0.5);
+
 
 }
 
@@ -158,10 +169,10 @@ font-weight: 600;
      background: rgb(230, 83, 60);;
 }
 
-#banner-section .imgg{
-    /* position: relative; */
+/* #banner-section .imgg{
+    position: relative;
 
-}
+} */
 
 #banner-section .imgg img{
  width: 100%;
@@ -183,8 +194,6 @@ font-weight: 900;
 background: rgb(172 172 172 / 23%);
 padding:10px 30px 0 30px;
 border-radius: 12px 12px 0 0;
-
-
 
 }
 
@@ -217,9 +226,6 @@ background: rgba(48, 48, 48, 0.54);
 padding:10px 30px 0 30px;
 border-radius: 12px 12px 0 0;
 
-
-
-
 }
 #banner-section .video-t p{
 
@@ -228,4 +234,121 @@ border-radius: 12px 12px 0 0;
     padding:0 30px 10px 30px;
     border-radius: 0 0 12px 12px;
     
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 576px){
+
+
+
+    /* nav bar  */
+
+    #nav-bar .icone{
+        display: contents; 
+         
+    }
+
+    #nav-bar .icone i{
+        text-align: end;
+         
+    }
+
+
+    #nav-bar .click-bar {
+        display: none;
+    }
+
+
+
+/* banner  */
+
+
+#banner-section .banner-p {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    align-items: center;
+}
+
+#banner-section .paragraph
+
+{
+    margin: 0 ;
+}
+
+#banner-section h1
+{
+  
+font-size: 38px;
+
+}
+
+#banner-section .paragraph p, #banner-section .video-w p, #banner-section .video-t p{
+  
+   
+    Font-size: 14px;
+    
+    }
+
+
+    #banner-section button{
+
+      
+        padding:10px 30px;
+       
+    font-size: 14px;
+   
+    
+    
+    }
+
+    #banner-section .video-w {
+      
+        top: 322px;
+       
+    }
+
+    #banner-section .video-w h2{
+    
+
+        font-size: 30px;
+        font-weight: 600; 
+        }
+
+    #banner-section .video-t {
+        right: 332px;
+        }
+
+
+        #banner-section .video-t h3{
+
+
+            font-size: 18px;
+            font-weight: 600;
+            
+        
+            
+            }
+
+
+
+
+
+
+
+
+
 }
