@@ -2,7 +2,18 @@
     margin: 0;
     padding: 0;
     
-  font-family: "Inter", sans-serif;}
+  font-family: "Inter", sans-serif;
+}
+
+@font-face {
+    font-family: 'Miama';
+    src: url('../font/Miama.woff') 
+    
+    format('woff2'),
+         url('fonts/miama.woff') format('woff');
+
+}
+
 
   #body-sec{
     background: rgb(0, 0, 0);
@@ -99,7 +110,7 @@ border-radius: 46px;
 #banner-section 
 {
 margin: 50px 0;
-position: relative;
+/* position: relative; */
 }
 
 
@@ -114,7 +125,7 @@ position: relative;
 #banner-section .paragraph
 
 {
-    margin: 0 30px 0 0 ;
+    margin: 0 40px 0 0;
 }
 
 #banner-section h1
@@ -123,17 +134,20 @@ position: relative;
 /* font-family: Inter; */
 font-size: 78px;
 font-weight: 900;
-line-height: 120%;
-letter-spacing: 0%;
 text-align: left;
     
 }
 
-#banner-section span{
-   
 
-   Font weight: 400; 
-   font-family: 'Miama';
+
+
+
+
+#banner-section span {
+    font-family: 'Miama', sans-serif;
+    Font-weight: 400;
+    font-size: 140px;
+    line-height: 0px;
 }
 
 #banner-section .paragraph p{ 
@@ -172,10 +186,10 @@ background-color: black;
      background: rgb(230, 83, 60);
 }
 
-/* #banner-section .imgg{
+#banner-section .imgg{
     position: relative;
 
-} */
+}
 
 #banner-section .imgg img{
  width: 100%;
@@ -184,8 +198,8 @@ background-color: black;
 
 #banner-section .video-w {
     position: absolute;
-    top: 157px;
-    right: 34px;
+    top: 177px;
+    right: -100px;
     border-radius: 12px;
 }
 
@@ -210,8 +224,8 @@ border-radius: 0 0 12px 12px;
 
 #banner-section .video-t {
     position: absolute;
-    bottom: 75px;
-    right: 467px;
+    bottom: 51px;
+    right: 180px;
 }
 /* #banner-section .video-t .circle{
     background: rgb(230, 83, 60);
@@ -408,7 +422,7 @@ font-weight: 400;
 background: rgba(255, 255, 255, 0.1);
 padding: 12px 40px 12px 15px;
 border: 1px solid black;
-margin: 10px 0;
+margin: 0px 5px 10px 0;
 color: rgb(123 123 123)
 
 
@@ -420,7 +434,7 @@ color: rgb(123 123 123)
 }
 
 #bmi-calculator #factor {
-    width: 97%;
+    width: 98%;
    
 }
 
@@ -438,10 +452,80 @@ color: rgb(123 123 123)
 font-size: 18px;
 font-weight: 600;
 background: rgba(255, 255, 255, 0.1);
+
+margin-top: 20px;
 }
 
 #bmi-calculator .btn:hover{
     background: rgb(230, 83, 60);}
+
+
+    #our-members{
+        margin: 50px;
+
+
+    }
+
+    
+    #our-members .members{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+
+        gap: 20px;
+       
+        
+        
+    }
+
+    #our-members .member1,.member2, .member3, .member4, .member5, .member6{
+         position: relative;
+    }
+ 
+    #our-members .name {
+        background: rgb(60 60 60 / 70%);
+        position: absolute;
+        bottom: 0;
+        padding: 6px;
+        border-radius: 0 20px;
+    }
+    
+
+    
+    #our-members img{
+        width: 100%;
+        border: 1px solid black;
+        border-radius: 20px;
+
+        
+    }
+
+
+
+
+    
+    #our-members h4{
+        font-size: 48px;
+        font-weight: 900;
+        margin-bottom:50px ;
+        text-align: center;
+
+        
+    } 
+    
+    #our-members h5{
+        font-size: 20px;
+
+        
+    }
+
+    #our-members p {
+        color: rgb(255 255 255 / 85%);
+        font-size: 14px;
+        font-weight: 400;
+        margin: 5px 0;
+    }
+
+
 
 
 
