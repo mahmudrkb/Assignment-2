@@ -2,13 +2,14 @@
     margin: 0;
     padding: 0;
     
-  font-family: "Inter", sans-serif;
-  font-optical-sizing: auto;
-  font-style: normal;
-   background: rgb(0, 0, 0);
+  font-family: "Inter", sans-serif;}
 
-   color: aliceblue;
-}
+  #body-sec{
+    background: rgb(0, 0, 0);
+
+    color: aliceblue;
+ 
+  }
 
 
 .containers{
@@ -75,7 +76,7 @@ color: aliceblue;
 
 #nav-bar a{
     text-decoration: none;
-    /* color: rgb(255, 255, 255); */
+    color: rgb(255, 255, 255);
 font-family: Inter;
 font-size: 18px;
 font-weight: 600;
@@ -113,7 +114,7 @@ position: relative;
 #banner-section .paragraph
 
 {
-    margin: 0 30px ;
+    margin: 0 30px 0 0 ;
 }
 
 #banner-section h1
@@ -151,22 +152,24 @@ color: rgba(255, 255, 255, 0.5);
 
 }
 
-#banner-section button{
+#banner-section button,
+ #run .btn button {
 
     margin-right: 16px;
     padding:16px 40px;
     border-radius: 42px;
     border: 1px solid;
 
-    /* color: rgb(255, 255, 255); */
+ color: rgb(255, 255, 255);
 font-size: 18px;
 font-weight: 600;
+background-color: black;
 
 
 }
 
 #banner-section button:hover{
-     background: rgb(230, 83, 60);;
+     background: rgb(230, 83, 60);
 }
 
 /* #banner-section .imgg{
@@ -235,6 +238,230 @@ border-radius: 12px 12px 0 0;
     border-radius: 0 0 12px 12px;
     
 }
+
+
+
+/* start main css  */
+
+
+#change-habits {
+    margin: 30px 0;
+
+}
+
+
+#change-habits .change-name{
+    text-align: center;
+    margin: 10px 0 50px 0;
+
+}
+
+#change-habits h3, #run h3, #bmi-calculator h3{
+
+    font-size: 48px;
+    font-weight: 900;
+
+
+}
+
+#change-habits p, #run p, #bmi-calculator p, #bmi-calculator p{
+color: rgba(255, 255, 255, 0.5);
+font-size: 14px;
+font-weight: 400;
+margin: 10px 0;
+
+
+}
+
+#change-habits .habits {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    column-gap: 40px;
+    text-align: center;
+}
+
+#change-habits img{
+    margin: 0 30px;
+    border: 4px solid rgba(255, 255, 255, 0.1);
+    border-radius: 100px;
+
+}
+
+#change-habits  h5{
+    margin: 30px 0 10px 0;
+    font-size: 18px;
+    font-weight: 600;
+
+}
+
+
+#run{
+    margin: 50px 0;
+
+}
+
+
+#run .run-p {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 50px;
+    border-radius: 18px;
+    /* margin: 60px; */
+    padding: 50px;
+    background-color: rgb(34, 34, 34);
+}
+
+
+
+#run .btn button{
+    padding: 11px 75px;
+    margin-top: 20px;
+    background-color: rgb(34, 34, 34);
+}
+#run .btn button:hover{
+    background: rgb(230, 83, 60);
+}
+
+#run .immg img {
+    width: 100%;
+    border: 1px solid rgba(0, 0, 0, 0);
+    border-radius: 18px;
+    height: 312px;
+    object-fit: none;
+    object-position: 66% 33%;
+}
+
+#run .part-1{
+
+    margin-right: 160px;
+}
+
+
+
+/*-------------- bmi -------- */
+
+
+
+#bmi-calculator{
+
+}
+
+#bmi-calculator .bmi-header {
+  
+    margin: 88px 30%;
+}
+
+
+#bmi-calculator .bmi-table {
+    display: grid;
+    grid-template-columns: 1fr 1.3fr;
+    background: rgb(34, 34, 34);
+    padding: 88px 0;
+    justify-items: center;
+}
+
+#bmi-calculator .bmi-chart h4{
+   
+    font-size: 28px;
+    font-weight: 900;
+    margin-bottom: 40px;
+  
+  
+}
+
+#bmi-calculator table, th, td{
+    border: 1px solid rgb(142, 139, 139);
+    border-collapse: collapse;
+   
+}
+
+#bmi-calculator th, td{
+    text-align: start;
+    padding: 18px 25px 18px 20px;
+}
+
+#bmi-calculator td {
+   
+    color: rgba(255, 255, 255, 0.5);
+font-size: 14px;
+font-weight: 400;
+}
+
+#bmi-calculator h4{
+
+    font-size: 28px;
+    font-weight: 900;
+    margin-bottom: 20px;
+
+}
+
+
+#bmi-calculator .bmi-calculate {
+    width: 600px;
+}
+
+
+#bmi-calculator input, #sex, #factor{
+    width: 230px;
+    border-radius: 8px;
+
+background: rgba(255, 255, 255, 0.1);
+padding: 12px 40px 12px 15px;
+border: 1px solid black;
+margin: 10px 0;
+color: rgb(123 123 123)
+
+
+
+}
+
+#bmi-calculator #sex {
+    width: 289px;
+}
+
+#bmi-calculator #factor {
+    width: 97%;
+   
+}
+
+
+
+
+
+#bmi-calculator .btn{
+    margin-right: 16px;
+    padding:10px 57px;
+    border-radius: 42px;
+    border: 1px solid;
+
+ color: rgb(255, 255, 255);
+font-size: 18px;
+font-weight: 600;
+background: rgba(255, 255, 255, 0.1);
+}
+
+#bmi-calculator .btn:hover{
+    background: rgb(230, 83, 60);}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
